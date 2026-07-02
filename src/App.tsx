@@ -142,12 +142,9 @@ const Navbar = ({ isDark, toggleDarkMode }: { isDark: boolean; toggleDarkMode: (
             <div className="hidden md:flex items-center space-x-1">
               {navLinks.map((link) => (
                
-                onClick={toggleDarkMode}
-                className="ml-4 p-2 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors"
-                aria-label="Toggle dark mode"
+                
               >
-                {isDark ? <Sun size={20} /> : <Moon size={20} />}
-              </button>
+              
             </div>
 
             {/* Mobile Menu Button */}
