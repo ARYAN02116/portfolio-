@@ -700,7 +700,7 @@ const Projects = () => {
       tech: ['HTML5', 'CSS3', 'JavaScript', 'React'],
       icon: <User size={32} />,
       color: 'from-blue-500 to-cyan-500',
-      link: '#',
+       link: 'https://portfolio-ruddy-six-25.vercel.app/',
     },
     {
       title: 'Fashion E-Commerce Website',
@@ -710,7 +710,7 @@ const Projects = () => {
       tech: ['HTML', 'CSS', 'JavaScript', 'Node.js'],
       icon: <ShoppingCart size={32} />,
       color: 'from-purple-500 to-pink-500',
-      link: '#',
+       link: 'https://aryan-cloth-iq.vercel.app/',
     },
     {
       title: 'Task Management App',
@@ -798,7 +798,7 @@ const Projects = () => {
         {/* View More */}
         <div className="text-center mt-12">
           <a
-            href="https://github.com/aryanraj"
+            href="https://github.com/ARYAN02116"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-2 px-8 py-4 bg-slate-800 dark:bg-slate-700 text-white font-semibold rounded-xl hover:bg-slate-900 dark:hover:bg-slate-600 transition-colors"
@@ -828,7 +828,7 @@ const Education = () => {
     {
       degree: 'Bachelor of Science in Information Technology',
       institution: 'Patliputra University',
-      location: 'Noida, Bihar, India',
+      location: 'Patna, Bihar, India',
       period: '2022 – 2025',
       type: 'Under Graduate',
       grade: 'Appearing',
@@ -1169,7 +1169,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://github.com/aryanraj"
+                href="https://github.com/ARYAN02116"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-slate-700 hover:text-white transition-colors"
@@ -1177,7 +1177,7 @@ const Footer = () => {
                 <GithubIcon size={20} />
               </a>
               <a
-                href="https://linkedin.com/in/aryanraj"
+                href="www.linkedin.com/in/aryanraj02116frontenddeveloper"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-slate-700 hover:text-white transition-colors"
@@ -1185,7 +1185,7 @@ const Footer = () => {
                 <LinkedinIcon size={20} />
               </a>
               <a
-                href="mailto:aryanraj@example.com"
+                href="rajaryan021116@gmail.com"
                 className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-slate-700 hover:text-white transition-colors"
               >
                 <Mail size={20} />
