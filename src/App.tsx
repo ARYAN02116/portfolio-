@@ -947,11 +947,11 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { icon: <GithubIcon size={24} />, label: 'GitHub', href: 'https://github.com/aryanraj' },
+    { icon: <GithubIcon size={24} />, label: 'GitHub', href: 'https://github.com/aryanraj02116' },
     {
       icon: <LinkedinIcon size={24} />,
       label: 'LinkedIn',
-      href: 'https://linkedin.com/in/aryanraj',
+      href: 'https://linkedin.com/in/aryanraj02116',
     },
   ];
 
@@ -1269,12 +1269,11 @@ function App() {
   const { isDark, toggleDarkMode } = useDarkMode();
 
   return (
-    <div className="min-h-screen bg-white dark:bg-slate-900 transition-colors duration-300">
-      {/* Scroll Progress Bar */}
+    
       <div className="scroll-progress" style={{ width: `${progress}%` }} />
 
       {/* Navbar */}
-      <Navbar isDark={isDark} toggleDarkMode={toggleDarkMode} />
+    
 
       {/* Main Content */}
       <main>
